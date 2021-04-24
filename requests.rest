@@ -1,0 +1,11 @@
+GET http://localhost:3000/users
+
+
+POST http://localhost:3000/users/login
+{
+    "email":"erykmati@o2.pl",
+    "password":"12345"
+}
+
+
+POST http://localhost:3000/users
