@@ -12,7 +12,7 @@ module.exports = {
       database: process.env.DB_NAME,
     },
     migrations: {
-      tableName: "migratons",
+      tableName: "migrations",
       directory: "./src/database/migrations",
     },
     seeds: {

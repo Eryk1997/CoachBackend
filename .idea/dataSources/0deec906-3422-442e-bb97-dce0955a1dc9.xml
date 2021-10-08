@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="coach2">
+  <database-model serializer="dbm" rdbms="POSTGRES" format-version="4.4">
+    <root id="1"/>
+    <database id="2" parent="1" name="coach">
+      <ObjectId>27182</ObjectId>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </database>
+    <database id="3" parent="1" name="postgres">
+      <ObjectId>13442</ObjectId>
+    </database>
+    <database id="4" parent="1" name="postgis_31_sample">
+      <ObjectId>24576</ObjectId>
+    </database>
+    <schema id="5" parent="2" name="public">
+      <ObjectId>2200</ObjectId>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="6" parent="2" name="pg_catalog">
+      <ObjectId>11</ObjectId>
+    </schema>
+    <schema id="7" parent="2" name="pg_toast">
+      <ObjectId>99</ObjectId>
+    </schema>
+    <schema id="8" parent="2" name="information_schema">
+      <ObjectId>13158</ObjectId>
+    </schema>
+    <sequence id="9" parent="5" name="exercises_id_seq">
+      <ObjectId>35952</ObjectId>
+      <StateNumber>642</StateNumber>
+    </sequence>
+    <sequence id="10" parent="5" name="meal_id_meal_seq">
+      <ObjectId>35997</ObjectId>
+      <StateNumber>642</StateNumber>
+    </sequence>
+    <sequence id="11" parent="5" name="migratons_id_seq">
+      <ObjectId>27261</ObjectId>
+      <StateNumber>529</StateNumber>
+    </sequence>
+    <sequence id="12" parent="5" name="migratons_lock_index_seq">
+      <ObjectId>27269</ObjectId>
+      <StateNumber>530</StateNumber>
+    </sequence>
+    <sequence id="13" parent="5" name="product_id_product_seq">
+      <ObjectId>35981</ObjectId>
+      <StateNumber>642</StateNumber>
+    </sequence>
+    <sequence id="14" parent="5" name="pupils_id_seq">
+      <ObjectId>35934</ObjectId>
+      <StateNumber>642</StateNumber>
+    </sequence>
+    <sequence id="15" parent="5" name="training_id_seq">
+      <ObjectId>35962</ObjectId>
+      <StateNumber>642</StateNumber>
+    </sequence>
+    <sequence id="16" parent="5" name="type_of_meal_id_type_of_meal_seq">
+      <ObjectId>35989</ObjectId>
+      <StateNumber>642</StateNumber>
+    </sequence>
+    <sequence id="17" parent="5" name="users_id_seq">
+      <ObjectId>35921</ObjectId>
+      <StateNumber>642</StateNumber>
+    </sequence>
+  </database-model>
+</dataSource>
