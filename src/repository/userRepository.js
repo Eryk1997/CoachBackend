@@ -23,19 +23,19 @@ exports.deleteUserById = async (req, res) => {
   res.status(200).json({ message: `User with id: ${req.params.id} delete` });
 };
 
-exports.updateUserById = async (req, res) => {
-  const user = await User.query().findById(req.params.id);
-  const {name,surname,email} = req.body
-  const password = bcrypt.hashSync(req.body.password,10)
-  
-  await User.query()
-    .patch({
-      name: name ?? user.name,
-      surname: surname ?? user.surname,
-      email: email ?? user.email,
-      password: password ?? user.password,
-    })
-    .findById(req.params.id);
-
-  res.status(200).json({ message: `Update user with id: ${req.params.id}` });
-};
+// exports.updateUserById = async (req, res) => {
+//   const user = await User.query().findById(req.params.id);
+//   const {name,surname,email} = req.body
+//   const password = bcrypt.hashSync(req.body.password,10)
+//
+//   await User.query()
+//     .patch({
+//       name: name ?? user.name,
+//       surname: surname ?? user.surname,
+//       email: email ?? user.email,
+//       password: password ?? user.password,
+//     })
+//     .findById(req.params.id);
+//
+//   res.status(200).json({ message: `Update user with id: ${req.params.id}` });
+// };

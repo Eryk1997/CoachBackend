@@ -9,5 +9,5 @@ app.use("/", require("./src/controllers/loginController"));
 app.use("/pupils", require("./src/controllers/pupilController"));
 
 app.listen(port, () => {
-  console.log(`App running on port ${port}.`);
+    console.log(`App running on port ${port}.`);
 });

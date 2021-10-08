@@ -8,7 +8,7 @@ const deleteUserValidator = require("../validators/user/deleteUserValidator");
 const updateUserSchema = require("../validators/user/updateUserValidator");
 
 //GET ALL USERS
-userController.get("/", authenticateJWT, (req, res) => {
+userController.get("/",authenticateJWT, (req, res) => {
   userRepository.selectAll(req, res);
 });
 
