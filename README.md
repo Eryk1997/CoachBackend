@@ -3,9 +3,9 @@ Info about API
 
 Global url: http://localhost:3000
 
-LOGIN
-POST
-/login
+LOGIN\
+POST\
+/login\
 info: login to app and get accessToken
 example:
         "email":"erykmati@o2.pl",
@@ -34,4 +34,13 @@ POST
 /users
 info: add user to database
 example:
-        
+        "name": "eryk",
+        "surname": "janocha",
+        "email": "erykmati9979@o2.pl",
+        "password": "12345",
+        "growth": 188,
+        "weight": 87.00,
+        "age": 26,
+        "type_of_role_id": 1    
+result:
+        "message": "correct add user"
