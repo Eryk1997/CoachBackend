@@ -6,10 +6,10 @@ Global url: http://localhost:3000
 LOGIN\
 POST\
 /login\
-info: login to app and get accessToken
-example:
-        "email":"erykmati@o2.pl",
-        "password":"12345"
+info: login to app and get accessToken\
+example:\
+        "email":"erykmati@o2.pl",\
+        "password":"12345"\
        
 result:
         "name": "eryk",
