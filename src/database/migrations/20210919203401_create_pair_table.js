@@ -3,10 +3,10 @@ exports.up = function(knex) {
         table.increments('id_pair').unsigned().primary();
 
         table.integer('trainer_id').unsigned().notNull();
-        table.foreign('trainer_id').references('id_user').inTable('users');
+        table.foreign('trainer_id').references('id').inTable('users');
 
         table.integer('pupil_id').unsigned().notNull();
-        table.foreign('pupil_id').references('id_user').inTable('users');
+        table.foreign('pupil_id').references('id').inTable('users');
     })
 
 };
