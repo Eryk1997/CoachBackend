@@ -8,9 +8,10 @@ POST\
 /login\
 info: login to app and get accessToken\
 example:\
+<div style="margin-left: 30px;">
         "email":"erykmati@o2.pl",\
         "password":"12345"\
-       
+       </div>
 result:
         "name": "eryk",
         "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImVyeWttYXRpQG8yLnBsIiwiaWF0IjoxNjMzODY2NjA4LCJleHAiOjE2MzM4Njg0MDh9.5qmqQ3LQFARLpGp-CGpF5jH7fg_Xd3wShg6tQ4KwuGc"
