@@ -10,7 +10,7 @@ exports.up = function(knex) {
         table.integer('age').notNull();
 
         table.integer('type_of_role_id').unsigned().notNull();
-        table.foreign('type_of_role_id').references('id_type_of_role').inTable('type_of_role')
+        table.foreign('type_of_role_id').references('id').inTable('type_of_role')
     })
 };
 

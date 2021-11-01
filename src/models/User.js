@@ -15,7 +15,7 @@ class User extends Model {
             modelClass: TypeOfRole,
             join:{
                 from: 'users.type_of_role_id',
-                to: 'type_of_role.id_type_of_role'
+                to: 'type_of_role.id'
             }
         }
     }
