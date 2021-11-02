@@ -10,6 +10,7 @@ app.use("/roles",require("./src/controllers/TypeOfRoleController"));
 app.use("/pupils",require("./src/controllers/PupilController"));
 app.use('/trainers',require("./src/controllers/TrainerController"))
 app.use('/products',require('./src/controllers/ProductController'))
+app.use('/exercises',require('./src/controllers/ExerciseController'))
 
 app.listen(port, () => {
     console.log(`App running on port ${port}.`);
