@@ -8,7 +8,7 @@ pupilController.get(
     "/:id",
     authenticateJWT,
     (req, res) => {
-      pupilRepository.selectUsersByTrainerId(req, res);
+      pupilRepository.selectPupilsByTrainerId(req, res);
     }
   );
 
