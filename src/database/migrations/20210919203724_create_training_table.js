@@ -7,10 +7,10 @@ exports.up = function (knex) {
         table.timestamp("date_training", { precision: 0 }).defaultTo(knex.fn.now(6));
 
         table.integer("pair_id").unsigned().notNull();
-        table.foreign("pair_id").references("id_pair").inTable('pair');
+        table.foreign("pair_id").references("id").inTable('pair');
 
         table.integer("exercise_id").unsigned().notNull();
-        table.foreign("exercise_id").references("id_exercise").inTable('exercise');
+        table.foreign("exercise_id").references("id").inTable('exercise');
     });
 };
 

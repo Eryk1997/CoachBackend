@@ -5,8 +5,8 @@ exports.seed = function (knex) {
             // Inserts seed entries
             return knex('pair').insert([
                 {trainer_id: 2, pupil_id: 3},
-                {trainer_id: 2, pupil_id: 3},
-                {trainer_id: 2, pupil_id: 3}
+                {trainer_id: 4, pupil_id: 5},
+                {trainer_id: 4, pupil_id: 6}
             ]);
         });
 };

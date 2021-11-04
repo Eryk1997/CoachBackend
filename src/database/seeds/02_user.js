@@ -35,6 +35,36 @@ exports.seed = function (knex) {
                     age: 22,
                     type_of_role_id: 2
                 },
+                {
+                    email: "erykmati3@o2.pl",
+                    password: bcrypt.hashSync("12345", 10),
+                    name: "eryk2",
+                    surname: "janocha2",
+                    growth: 186,
+                    weight: 77,
+                    age: 22,
+                    type_of_role_id: 1
+                },
+                {
+                    email: "erykmati4@o2.pl",
+                    password: bcrypt.hashSync("12345", 10),
+                    name: "eryk2",
+                    surname: "janocha2",
+                    growth: 186,
+                    weight: 77,
+                    age: 22,
+                    type_of_role_id: 2
+                },
+                {
+                    email: "erykmati5@o2.pl",
+                    password: bcrypt.hashSync("12345", 10),
+                    name: "eryk2",
+                    surname: "janocha2",
+                    growth: 186,
+                    weight: 77,
+                    age: 22,
+                    type_of_role_id: 2
+                },
             ]);
         });
 };
